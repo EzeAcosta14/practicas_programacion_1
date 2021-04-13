@@ -1,0 +1,22 @@
+Algoritmo bombas_para_maquina
+	Definir tipo_de_bomba Como Entero
+	Escribir "INTRODUZCA EL NUMERO DE TIPO DE BOMBA"
+	Leer tipo_de_bomba
+	Segun tipo_de_bomba Hacer
+		0:
+			Escribir "No hay establecido un valor definido para el tipo de bomba"
+		1:
+			Escribir "La bomba es una bomba de agua"
+		2:
+			Escribir "La bomba es una bomba de gasolina"
+		3:
+			Escribir "La bomba es una bomba de hormigón"
+		4:
+			Escribir "La bomba es una bomba de pasta alimenticia"	
+		De Otro Modo:
+			Escribir "No existe un valor válido para tipo de bomba"
+	Fin Segun
+
+	
+	
+FinAlgoritmo
